@@ -10,6 +10,11 @@ googleAnalytics = "Your Google Analytics tracking id"
 # enable get info from git commits, such as file modification time.
 # so we don't have to manually update it.
 enableGitInfo = true
+
+[author]
+  name = "Your Name"
+  email = "your@email.com"
+
 [params]
   # Hide the date on posts
   # hideDate = true
@@ -55,6 +60,7 @@ enableGitInfo = true
   # Logo image. This is displayed ogp image.
   logo = "/path/to/logo"
   favicon = "/path/to/favicon"
+
 [[menu.main]]
     name = "Blog"
     url = "/"
@@ -81,12 +87,10 @@ enableGitInfo = true
     name = "Tags"
     url = "/tags"
     weight = 4
+
 [related]
-  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
   threshold = 80
-  # To get stable "See also" sections we, by default, exclude newer related pages.
   includeNewer = false
-  # Will lower case keywords in both queries and in the indexes.
   toLower = false
   [[related.indices]]
   name = "keywords"
