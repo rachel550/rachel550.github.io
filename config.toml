@@ -2,6 +2,7 @@ theme = "hugo-theme-pickles"
 baseurl = "https://rachel550.github.io/"
 languageCode = "ko-kr"
 Title = "Inovatopia"
+paginate = 10
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright notice"
 
@@ -12,7 +13,6 @@ googleAnalytics = "Your Google Analytics tracking id"
 # so we don't have to manually update it.
 enableGitInfo = true
 
-paginate = 10
 
 [params]
   # Hide the date on posts
